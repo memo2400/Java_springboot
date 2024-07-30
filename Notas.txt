@@ -16,3 +16,9 @@ en SRC
     resources 
         static
             van archivos publico que vera el usuario como imagnenes etc etc, tml de pagina web
+
+26:11
+     hace un sprinboot-run para leantar la app
+     yo le di en run en curso aplication java y si jalo FULHD
+
+27:14
