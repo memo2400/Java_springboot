@@ -20,5 +20,15 @@ en SRC
 26:11
      hace un sprinboot-run para leantar la app
      yo le di en run en curso aplication java y si jalo FULHD
+     fi  secc 10
 
 27:14
+
+31:11
+    secc 12
+
+    los controlesr siren para manejar las urls, las que el usuario entre
+    si entra a ausuario devueva otra cosas, etc etc 
+
+    hay que fijarse bien que el controller esta dentro de la carpeta com/cursojava/curso 
+    eso para que salga igual que el tuttorial
