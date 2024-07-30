@@ -1,5 +1,7 @@
 package com.cursojava.curso.controllers;
 
+import java.util.List;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -8,8 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class UsuarioController {
 
 
+    /* le agregue el termino list y despues importe la lista 
+     * para arreglar el error
+     */
     @RequestMapping (value = "prueba")
-    public String prueba () {
-        return "prueba";
+    public List<String> prueba () {
+        // esta lista nos devuelve un JSON
+        return List.of("manzana", "melon", "guayaba", "sandia");
     }
 }

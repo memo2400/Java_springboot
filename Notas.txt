@@ -45,5 +45,31 @@ buscamos en google
     dentro de source /resouswer / static vamos a descompirmir todo lo que 
     bajamo de la pagina web
 
+    al intructor le quedo caceado entonces relanzo la app pero a mi no me paso eso
+    el le dio clea y en run
+
+el font y el controller debn estar lo mas seprados posibles
+de modo que el front haga solo reques y el backk e responda
+
+la app en la seccion de prueba nos devuelve un json
+fin seccion 13
+
+40:13
+
+JSOn se usa mas que el xml, porque pesa menos
+
+50:51
+
+
+el puerto 80 es el mero puerto por defecto
+puede vaiar pro casi no se da
+
+el simbolo de pregunta ? es sepradaro en el link,
+
+    como id = 123
+
+tenemos el &  tambien como separador
+
+la informacion no esta toda en el link, por eso se usan los metodos HTTP
 
 
