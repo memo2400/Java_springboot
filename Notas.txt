@@ -1,0 +1,18 @@
+
+el archivo pom no s da la estructura full de todo el proeycto como depndencias
+etc de maven ectd
+
+adentor de pom en dependencias se agregara todo lo que necesitemos
+
+en buld hace referencia a la compilacion
+
+en SRC
+    tneemos dos carpetas una que est test y una main la buena
+
+    main
+        resources = cosas de configuraciones y htmsl fron end etc 
+        y java = codigo Java 
+    
+    resources 
+        static
+            van archivos publico que vera el usuario como imagnenes etc etc, tml de pagina web
