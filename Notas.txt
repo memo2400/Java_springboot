@@ -32,3 +32,18 @@ en SRC
 
     hay que fijarse bien que el controller esta dentro de la carpeta com/cursojava/curso 
     eso para que salga igual que el tuttorial
+
+    fin de controller test
+34:10
+
+buscamos en google
+ sb admin 2 download
+ con eso bajamos una plantilla
+    https://startbootstrap.com/theme/sb-admin-2
+    descargamoa la version free
+
+    dentro de source /resouswer / static vamos a descompirmir todo lo que 
+    bajamo de la pagina web
+
+
+
