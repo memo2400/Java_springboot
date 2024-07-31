@@ -130,3 +130,18 @@ gui al table.html y borre todo de la table y renombre el archvivo
 
 se agregaron mas cosas de la lista y se adecuo al ejemplo
 1:32:02
+
+
+buscamos en todo el proyecto la taba de usaurioas hasta que encontramos este
+
+    // Call the dataTables jQuery plugin
+    $(document).ready(function() {
+    $('#dataTable').DataTable();
+    });
+
+    full_stack_java\src\main\resources\static\js\demo\datatables-demo.js
+
+    vamos a cambiar el nombe el darchivo de JScriotp  a "usuarios"
+    lo sacamos de la carpeta demo ys e queda en resources\static\js
+
+
