@@ -107,6 +107,12 @@ REST
 Los framewoks son los que aplican los patrones mencionados
     com dijango o spring, etc etc
         en ellos se aplican todos los patrones para estandarixar su forma de programar.
+
+        solo hay como 2 frameworks por lenguaje
+
+        los mejores frmaworks te dan mas soporte porque muchos ya se equivocaron y errores
+
+        los framewoks se usan despues de haber aprendido un kenguaje para estar mas avanzado
     
-    
+
 
