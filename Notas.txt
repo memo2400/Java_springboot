@@ -145,3 +145,4 @@ buscamos en todo el proyecto la taba de usaurioas hasta que encontramos este
     lo sacamos de la carpeta demo ys e queda en resources\static\js
 
 
+01:39:59
