@@ -16,6 +16,28 @@ $(document).ready(function() {
 
 /* agrego esta funcion para cargar los usuarios */
 
-function cargarUsuarios(){
+async function cargarUsuarios(){
+
+  /* la funcino awat hace que nuestro codigo se espere hasta que se
+    terminde de consultar, para evitar eso usaremos funcuino tipo asyn */
+  const request = await fetch(
+    'usuario/2244',
+    {
+      method: 'GET',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      }
+
+      // esto solo se usaria si usamos metodo post
+      // ,body: JSON.stringify({a: 1, b: 'Textual content'})
+    } 
+  );
+
+  const usuarios = await request.json();
+
+  console.log(usuarios);
 
 }
+
+
