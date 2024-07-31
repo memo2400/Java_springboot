@@ -70,6 +70,43 @@ el simbolo de pregunta ? es sepradaro en el link,
 
 tenemos el &  tambien como separador
 
-la informacion no esta toda en el link, por eso se usan los metodos HTTP
+la informacion no esta toda en el link, por eso se usan los metodos HTTP.
 
+
+PAtrones de arquitectura de proeycto
+
+
+    en network - HHR - preview, se nos muestran las peticiones que hace una
+    pagina comotwitter que usa REST, sojn arcvhivos JSON
+
+    1:08:46
+
+    eso de tener el JSON y el HTML separados hace que sea muy
+    flexible el proyecto
+
+    es ai que si queremos hacer una app de celular con esa misma
+    estructura, nos dejara el server igual y soloharemos la parte del 
+    celular
+
+    si nnos devolviera el server codigo html, seria muy dificl hacer la 
+    app de celular con htmsl
+
+el ENVC es bueno para nas cosas y Rest para otras
+
+    NVC es bueno para os correos electronicos
+
+REST
+    Repositiris tiene las logicas de bae de datos 
+    servicio tiene las logica normales
+    modelo guarda nombre de entidades, como ususario
+    repositorio usa la entidad usuario para conecta a BD,
+    controlador = hace el JSON al cliente
+
+01:15:23
+
+Los framewoks son los que aplican los patrones mencionados
+    com dijango o spring, etc etc
+        en ellos se aplican todos los patrones para estandarixar su forma de programar.
+    
+    
 
