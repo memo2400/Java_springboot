@@ -115,4 +115,11 @@ Los framewoks son los que aplican los patrones mencionados
         los framewoks se usan despues de haber aprendido un kenguaje para estar mas avanzado
     
 
+1:22:03
 
+   SI VAMOS A http://localhost:8080/usuario
+    nos debyelve ya el json de nuestro Usuario
+
+    vamos a crear ususario, boorarlos, editar y usar sesion con ellos
+
+1:25:54

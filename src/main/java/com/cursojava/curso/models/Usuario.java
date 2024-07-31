@@ -8,6 +8,8 @@ public class Usuario {
     private String telefono;
     private String password;
 
+    private Long id;
+
     /* usaremos la convencion de getters y setters oara esta app
      * hay otros como builders que es otra convencion 
      */
@@ -42,6 +44,14 @@ public class Usuario {
     public void setPassword(String password) {
         this.password = password;
     }
+    public Long getId() {
+        return id;
+    }
+    public void setId(Long id) {
+        this.id = id;
+    }
 
+
+    
 
 }
