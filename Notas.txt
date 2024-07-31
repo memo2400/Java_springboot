@@ -123,3 +123,10 @@ Los framewoks son los que aplican los patrones mencionados
     vamos a crear ususario, boorarlos, editar y usar sesion con ellos
 
 1:25:54
+
+gui al table.html y borre todo de la table y renombre el archvivo
+
+
+
+se agregaron mas cosas de la lista y se adecuo al ejemplo
+1:32:02
