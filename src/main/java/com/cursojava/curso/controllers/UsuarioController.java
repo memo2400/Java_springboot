@@ -5,6 +5,8 @@ import java.util.List;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.cursojava.curso.models.Usuario;
+
 /* con agregar el deecorador se inporta lo demas de manera normal */
 @RestController
 public class UsuarioController {
@@ -18,10 +20,24 @@ public class UsuarioController {
     public List<String> prueba () {
         // esta lista nos devuelve un JSON
         return List.of("manzana", "melon", "guayaba", "sandia");
+
     }*/
-    @RequestMapping (value = "prueba")
-    public String prueba () {
-        // esta lista nos devuelve un JSON
-        return "prueba";
+    // usamos el tipo Clase usuario
+    @RequestMapping (value = "usuario")
+    public Usuario obtenerUsuario () {
+        
+        // generamos el ususario
+        
+        Usuario usuario = new Usuario();
+
+        //asignamos valores
+
+        usuario.setNombre("Michael");
+        usuario.setApellido("Hansen");
+        usuario.setEmail("ejemplo@hotmail.com");
+        usuario.setTelefono("5512344321");
+
+
+        return usuario;
     }
 }
