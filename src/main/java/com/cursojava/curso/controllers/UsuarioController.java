@@ -49,7 +49,7 @@ public class UsuarioController {
     }
 
     @RequestMapping (value = "usuario")
-    public List <Usuario> listaUsuarios (@PathVariable Long id) {
+    public List <Usuario> listaUsuarios () {
         
         // se crea un alista vacia de usuarios
 
@@ -60,25 +60,27 @@ public class UsuarioController {
         usuario.setNombre("Michael");
         usuario.setApellido("Hansen");
         usuario.setEmail("ejemplo@hotmail.com");
-        usuario.setTelefono("5512344321");
-        usuario.setId(id);
+        usuario.setTelefono("2711234321");
+        usuario.setId(117L);
+
+        // utilizo la L para evitar el error
 
 
         Usuario usuario2 = new Usuario();
 
-        usuario2.setNombre("Michael");
-        usuario2.setApellido("Hansen");
-        usuario2.setEmail("ejemplo@hotmail.com");
+        usuario2.setNombre("Alan");
+        usuario2.setApellido("Poe");
+        usuario2.setEmail("restos@yahoo.com.com");
         usuario2.setTelefono("5512344321");
-        usuario2.setId(id);
+        usuario2.setId(114L);
 
         Usuario usuario3 = new Usuario();
 
-        usuario3.setNombre("Michael");
-        usuario3.setApellido("Hansen");
-        usuario3.setEmail("ejemplo@hotmail.com");
-        usuario3.setTelefono("5512344321");
-        usuario3.setId(id);
+        usuario3.setNombre("Andi");
+        usuario3.setApellido("Deris");
+        usuario3.setEmail("holacasa@gmail.com");
+        usuario3.setTelefono("2248344321");
+        usuario3.setId(25L);
 
         // se agregan los usuarios
 
