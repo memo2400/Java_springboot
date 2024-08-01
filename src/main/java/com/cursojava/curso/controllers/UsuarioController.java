@@ -1,5 +1,7 @@
 package com.cursojava.curso.controllers;
 
+import java.nio.file.attribute.UserPrincipalLookupService;
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.web.bind.annotation.PathVariable;
@@ -44,6 +46,48 @@ public class UsuarioController {
         usuario.setId(id);
 
         return usuario;
+    }
+
+    @RequestMapping (value = "usuario")
+    public List <Usuario> listaUsuarios (@PathVariable Long id) {
+        
+        // se crea un alista vacia de usuarios
+
+        List <Usuario> usuarios  = new ArrayList<>();
+        
+        Usuario usuario = new Usuario();
+
+        usuario.setNombre("Michael");
+        usuario.setApellido("Hansen");
+        usuario.setEmail("ejemplo@hotmail.com");
+        usuario.setTelefono("5512344321");
+        usuario.setId(id);
+
+
+        Usuario usuario2 = new Usuario();
+
+        usuario2.setNombre("Michael");
+        usuario2.setApellido("Hansen");
+        usuario2.setEmail("ejemplo@hotmail.com");
+        usuario2.setTelefono("5512344321");
+        usuario2.setId(id);
+
+        Usuario usuario3 = new Usuario();
+
+        usuario3.setNombre("Michael");
+        usuario3.setApellido("Hansen");
+        usuario3.setEmail("ejemplo@hotmail.com");
+        usuario3.setTelefono("5512344321");
+        usuario3.setId(id);
+
+        // se agregan los usuarios
+
+        usuarios.add(usuario);
+        usuarios.add(usuario2);
+        usuarios.add(usuario3);
+
+        return usuarios;
+        
     }
 
     public Usuario editarUsuario () {
