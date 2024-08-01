@@ -36,22 +36,23 @@ async function cargarUsuarios(){
 
   const usuarios = await request.json();
 
+for (let usuario of usuarios){
+  
+  // AQUI llenaremos los usuarios
+  let usuarioHTML = '<tr><td>4556</td><td>"+usuario.nombre+" "+usuario.apellido+"</td><td>"+usuario.email+"</td><td>"+usuario.telefono+"</td><td><a href="#" class="btn btn-danger btn-circle btn-sm"><i class="fas fa-trash"></i></a></td></tr>';
+
+}
+
+
+
   console.log(usuarios);
   
-  // habia probemas con las commilas dobles, asi que se usa para encerrar todo comilla normal
-  let usuario = '<tr>
-                  <td>4556</td>
-                  <td>KAi Hansen</td>
-                  <td>gamma@yahoo.com</td>
-                  <td>5245124512</td>
-                  <td><a href="#" class="btn btn-danger btn-circle btn-sm">
-                    <i class="fas fa-trash"></i>
-                    </a>
-                  </td>                                            
-                </tr>';
+  // habia problemas con las commilas dobles, asi que se usa para encerrar todo comilla normal
+  // el HTML debe estar en una sola linea para que no de error
+  // let usuarioHTML = '<tr><td>4556</td><td>Java Script</td><td>primeroejemplo@yahoo.com</td><td>5245124512</td><td><a href="#" class="btn btn-danger btn-circle btn-sm"><i class="fas fa-trash"></i></a></td></tr>';
 
   // Seccion que instruce varoes a la tabla de usuarios del ususarios.HTML
-  document.querySelector('#usuarios tbody').outerHTML = usuario;
+  document.querySelector('#usuarios tbody').outerHTML = usuarioHTML;
 
 }
 
