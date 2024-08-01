@@ -21,7 +21,7 @@ async function cargarUsuarios(){
   /* la funcino awat hace que nuestro codigo se espere hasta que se
     terminde de consultar, para evitar eso usaremos funcuino tipo asyn */
   const request = await fetch(
-    'usuario/2244',
+    'usuarios',
     {
       method: 'GET',
       headers: {
@@ -37,6 +37,9 @@ async function cargarUsuarios(){
   const usuarios = await request.json();
 
   console.log(usuarios);
+
+  // Seccion que instruce varoes a la tabla de usuarios del ususarios.HTML
+  document.querySelector('#usuarios tbody').outerHTML = "holaa"
 
 }
 

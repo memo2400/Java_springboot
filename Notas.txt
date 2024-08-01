@@ -146,3 +146,20 @@ buscamos en todo el proyecto la taba de usaurioas hasta que encontramos este
 
 
 01:39:59
+
+
+para agregar  los ussuarios en la tabla html, se susara el arcvhico
+java script
+
+    se abre la pagina en modo inspector, se revisa con f2 la inspeccion. http://localhost:8080/usuarios.html    
+    network - XHR - Consola
+        alli seleccioamos ejecutar 
+            document.querySelector('#usuarios tbody')
+                # esto significa que son los CSS dentro del archivo JavaScript
+        
+        ahora se prueba con esto         
+            document.querySelector('#usuarios tbody').outerHTML = "holaa"
+            Eso hizo que en la tabla de la pagina se cambie el texto de la fila, por holaa
+
+            Este codigo nos lo llevamos al  Java Script
+

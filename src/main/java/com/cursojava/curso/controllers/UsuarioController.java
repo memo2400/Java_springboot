@@ -48,8 +48,8 @@ public class UsuarioController {
         return usuario;
     }
 
-    @RequestMapping (value = "usuario")
-    public List <Usuario> listaUsuarios () {
+    @RequestMapping (value = "usuarios")
+    public List <Usuario> obtenerUsuarios () {
         
         // se crea un alista vacia de usuarios
 
