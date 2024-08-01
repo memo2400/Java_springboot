@@ -36,23 +36,33 @@ async function cargarUsuarios(){
 
   const usuarios = await request.json();
 
+let listadoUsuariosHTML = ''
+
 for (let usuario of usuarios){
   
-  // AQUI llenaremos los usuarios
-  let usuarioHTML = '<tr><td>4556</td><td>"+usuario.nombre+" "+usuario.apellido+"</td><td>"+usuario.email+"</td><td>"+usuario.telefono+"</td><td><a href="#" class="btn btn-danger btn-circle btn-sm"><i class="fas fa-trash"></i></a></td></tr>';
+  /**
+   * AQUI llenaremos los usuarios con eso se hace llamado al server y se trae todo el 
+   * listado que pusimos en Usuario controller
+   * las comillas deben ser simples para que funcione ''
+   */
+  
+  let usuarioHTML = '<tr><td>4556</td><td>'+usuario.nombre+' '+usuario.apellido+'</td><td>'+usuario.email+'</td><td>'+usuario.telefono+'</td><td><a href="#" class="btn btn-danger btn-circle btn-sm"><i class="fas fa-trash"></i></a></td></tr>';
+
+  listadoUsuariosHTML += usuarioHTML;
 
 }
 
 
 
-  console.log(usuarios);
+  //console.log(usuarios);
   
   // habia problemas con las commilas dobles, asi que se usa para encerrar todo comilla normal
   // el HTML debe estar en una sola linea para que no de error
   // let usuarioHTML = '<tr><td>4556</td><td>Java Script</td><td>primeroejemplo@yahoo.com</td><td>5245124512</td><td><a href="#" class="btn btn-danger btn-circle btn-sm"><i class="fas fa-trash"></i></a></td></tr>';
 
   // Seccion que instruce varoes a la tabla de usuarios del ususarios.HTML
-  document.querySelector('#usuarios tbody').outerHTML = usuarioHTML;
+  // aqui se debe poner ahora la lista
+  document.querySelector('#usuarios tbody').outerHTML = listadoUsuariosHTML;
 
 }
 
