@@ -37,9 +37,21 @@ async function cargarUsuarios(){
   const usuarios = await request.json();
 
   console.log(usuarios);
+  
+  // habia probemas con las commilas dobles, asi que se usa para encerrar todo comilla normal
+  let usuario = '<tr>
+                  <td>4556</td>
+                  <td>KAi Hansen</td>
+                  <td>gamma@yahoo.com</td>
+                  <td>5245124512</td>
+                  <td><a href="#" class="btn btn-danger btn-circle btn-sm">
+                    <i class="fas fa-trash"></i>
+                    </a>
+                  </td>                                            
+                </tr>';
 
   // Seccion que instruce varoes a la tabla de usuarios del ususarios.HTML
-  document.querySelector('#usuarios tbody').outerHTML = "holaa"
+  document.querySelector('#usuarios tbody').outerHTML = usuario;
 
 }
 
