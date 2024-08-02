@@ -214,3 +214,5 @@ Ahora vamos a consumir la BD con nuesta app
 se crea el pakage dao, Data Acces Object
      Alli se agrega una JavaInterface
 
+02:05:44
+

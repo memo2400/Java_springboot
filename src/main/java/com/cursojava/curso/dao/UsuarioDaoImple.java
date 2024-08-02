@@ -2,7 +2,14 @@ package com.cursojava.curso.dao;
 
 import java.util.List;
 
+import org.springframework.stereotype.Repository;
+
 import com.cursojava.curso.models.Usuario;
+
+/* transaccional da la funcionalidad de armar consultas AQL a la BD */
+
+@Repository
+@Transactional
 
 /*Aqui implementaremos la 
  * interface de UsuarioDao
