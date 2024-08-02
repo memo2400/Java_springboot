@@ -165,3 +165,52 @@ java script
 
 01:54:45
 
+01:55:00
+
+BASE DE datos
+
+para armar la base de datos, se descaraga XAMPP
+
+    https://www.apachefriends.org/es/download_success.html
+
+    Le damos Star en My SQL
+    Star a apache 
+
+    si no se levAquinas virtuales
+         podemos cmabiar el puerto de la app en config-ini
+
+    localhost/phpmyadmin/
+
+    en ese ruta aremos la nueva BD
+
+01:56:51
+
+    Se crea una nueva BD 
+
+        nombre = users
+        tipo = utf8_Bin 
+
+        Despues se crea una tabla
+            Con el nombre usuarios y 5 columnas.
+            de las columnas se llenan como
+                ID = Bigint
+                Indice = primary
+                A_I = ok
+
+                agremamos los demas como appellido, nombre, ect
+                    estas son tipo VARCHAR
+            
+            llenamos lo largo de cada columna, ponemos a gusto
+
+            GUARDAMOS
+
+            Vamos a la seccion INSERT para agregar unos ejemplos
+                VUALA listo primer dato dummy
+
+2:00:02
+
+Ahora vamos a consumir la BD con nuesta app
+
+se crea el pakage dao, Data Acces Object
+     Alli se agrega una JavaInterface
+
