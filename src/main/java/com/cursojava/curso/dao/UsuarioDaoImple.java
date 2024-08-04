@@ -6,12 +6,12 @@ import org.springframework.stereotype.Repository;
 
 import com.cursojava.curso.models.Usuario;
 
+import jakarta.transaction.Transactional;
+
 /* transaccional da la funcionalidad de armar consultas AQL a la BD */
 
 @Repository
 @Transactional
-
-
 
 
 /*Aqui implementaremos la 
