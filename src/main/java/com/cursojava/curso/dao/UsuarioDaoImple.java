@@ -11,6 +11,9 @@ import com.cursojava.curso.models.Usuario;
 @Repository
 @Transactional
 
+
+
+
 /*Aqui implementaremos la 
  * interface de UsuarioDao
  * 
