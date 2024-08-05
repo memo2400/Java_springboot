@@ -216,3 +216,8 @@ se crea el pakage dao, Data Acces Object
 
 02:05:44
 
+
+02:10:56
+
+vamos a google, Maven lonbok copiamos libreria de pagina 
+https://projectlombok.org/setup/maven
