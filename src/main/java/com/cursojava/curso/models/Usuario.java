@@ -1,34 +1,42 @@
 package com.cursojava.curso.models;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 // indicamos la tabla donse se guardara
 @Table(name = "usuarios")
 
 // hace referencia a una entidad de BD
 @Entity 
+
+@EqualsAndHashCode @ToString
 public class Usuario {
 
     /*
      * decoradores de getter setter de lombok
      * hacen codigo en menos lineas
+     *  @Column(name = "id") // aqui hacemos referencia a donde se insertara la info
      */
-    @Getter @Setter
+    @Getter @Setter @Column(name = "nombre")
     private String nombre;
-    @Getter @Setter
+    @Getter @Setter @Column(name = "apellido")
     private String apellido;
 
-    @Getter @Setter
+    @Getter @Setter @Column(name = "email")
     private String email;
-    @Getter @Setter
+    @Getter @Setter @Column(name = "telefono")
     private String telefono;
 
-    @Getter @Setter
+    @Getter @Setter @Column(name = "password")
     private String password;
-    @Getter @Setter
+    @Getter @Setter @Column(name = "id")
+    @Id // agregamos ID de jakarta
     private Long id;
 
     /* usaremos la convencion de getters y setters oara esta app

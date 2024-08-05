@@ -221,3 +221,19 @@ se crea el pakage dao, Data Acces Object
 
 vamos a google, Maven lonbok copiamos libreria de pagina 
 https://projectlombok.org/setup/maven
+
+02:13:56
+
+02:15:41
+
+Inyeccion dependencias  
+     es de o mas usado, como back y front  , es indispensable para todos
+     patron de DIseño Orientado a objetos, es unoo de los 5 princioios de clases, 
+     soluciona el problema de mantener componentes de capas de forma desacoplada, 
+     asi se inyecta cosas a cada pieza de software, para que entre ellas solo haya una interfaz de comunicacions
+
+    asi cada componente tiene menos responsabilidad
+
+    tiene ventajas y desventajas
+
+    no pensar que nos va a resolver toda la vida
