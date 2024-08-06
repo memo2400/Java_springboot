@@ -244,3 +244,5 @@ Inyeccion dependencias
 despues de moverle al usuarios controller vamos a ver lo de BD
 
 02:21:08
+
+02:23:24
