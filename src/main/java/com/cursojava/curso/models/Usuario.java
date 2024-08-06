@@ -15,6 +15,7 @@ import lombok.ToString;
 // hace referencia a una entidad de BD
 @Entity 
 
+// genera el to string de forma automatica para esta clase
 @EqualsAndHashCode @ToString
 public class Usuario {
 

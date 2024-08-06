@@ -237,3 +237,10 @@ Inyeccion dependencias
     tiene ventajas y desventajas
 
     no pensar que nos va a resolver toda la vida
+
+    con la inyeccion de dependencias queda desacoplada la aplicacion
+
+    
+despues de moverle al usuarios controller vamos a ver lo de BD
+
+02:21:08
